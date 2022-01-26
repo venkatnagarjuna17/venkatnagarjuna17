@@ -4,35 +4,35 @@ pipeline {
 	stages {
 		stage ('build') {
 			steps {
-				echo "build stage"
+				echo "this is my build stage"
 			}
 			}
 		stage ('test: integration-&-quality') {
 			steps {
-				echo "test: integration-&-quality"
+				echo "this is my integartion stage "
 			}
 			
 		}
 		stage ('test: functional') {
 			steps {
-				echo "test: functional"
+				echo "this is my functional stage"
 			}
 		}
 		stage ('test: load-&-security') {
 			steps {
-				echo "test: load-&-security"
+				echo "this is my security stage"
 			}
 			
 		}
 		stage ('approval') {
 			steps {
-				echo "approval"
+				echo "this is my approval stage"
 			}
 			
 		}
 		stage ('deploy:prod') {
 			steps {
-				echo "deploy:prod"
+				echo "this is my deploy to prod stage "
 			}
 		
 		}
