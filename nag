@@ -1,4 +1,9 @@
-hikllkn
-lkbjblk
-b,jbk,
-hi fine ok no issue 
+pipeline{
+agent {
+stage('changes') {
+step {
+echo "is is changes stage"
+}
+}
+}
+}
