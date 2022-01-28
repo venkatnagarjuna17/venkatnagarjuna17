@@ -1,17 +1,10 @@
- i
- hi 
- how are u 
- how do u do 
- what are u doing 
- had dinner
- had tea
- had coffee
-today is tuesday
-tomorrow is wedensday
-ok 
-now time is 6:48PM
-i have csall with client to night 
-dont distrub me ok 
-hi
+pipeline{
+stages{
+stage ('slave') {
+step{
+echo 'it is slave stage'
+}
+}
+}
 
-hhhh
+}
