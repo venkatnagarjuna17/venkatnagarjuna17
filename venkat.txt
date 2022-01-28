@@ -1,0 +1,9 @@
+pipeline{
+stages{
+stage('folder') {
+steps {
+echo "it is folder stage "
+}
+}
+}
+}
